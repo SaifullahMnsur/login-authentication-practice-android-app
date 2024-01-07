@@ -18,7 +18,7 @@ public class RegisterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FirebaseAuth auth = AuthorHolder.auth;
+        FirebaseAuth auth = FirebaseAuth.getInstance();
 
         ActivityRegisterBinding binding = ActivityRegisterBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
