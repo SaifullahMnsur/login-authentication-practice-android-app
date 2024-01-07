@@ -15,14 +15,13 @@ import java.util.Objects;
 
 
 public class RegisterActivity extends AppCompatActivity {
+    FirebaseAuth auth = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FirebaseAuth auth = FirebaseAuth.getInstance();
-
         ActivityRegisterBinding binding = ActivityRegisterBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        auth = FirebaseAuth.getInstance();
         ActionBar actionBar = getSupportActionBar();
         if( actionBar != null ){
             actionBar.setTitle("Register");
