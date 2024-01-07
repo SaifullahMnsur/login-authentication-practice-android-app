@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "998714741074",
+    "project_id": "conncet-me",
+    "storage_bucket": "conncet-me.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998714741074:android:1ab1b2a6ffb62c89ea2a8b",
+        "android_client_info": {
+          "package_name": "com.example.connentme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwHnxRZR-oR3ojNOIyorWRF4An6TF3VDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
