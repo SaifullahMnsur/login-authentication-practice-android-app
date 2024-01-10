@@ -20,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         auth = FirebaseAuth.getInstance();
         Log.d("MainActivity", "AuthHolder initialized");
+        if(auth.getCurrentUser() == null){
+            startActivity(new Intent(this, NewRegisterActivity.class));
+            finish();
+        }
+
+
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
@@ -43,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "You are not logged in!", Integer.parseInt("1000")).show();
             }
         });
-
     }
 
     @Override

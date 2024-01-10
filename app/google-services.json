@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "998714741074",
+    "firebase_url": "https://conncet-me-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "conncet-me",
     "storage_bucket": "conncet-me.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.example.connentme"
         }
       },
-      "oauth_client": [],
+      "oauth_client":  [
+        {
+          "client_id": "998714741074-169p1rn2j79v64f4ero74ibbjrq59sji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.connentme",
+            "certificate_hash": "a83ef5685c4e07843a1c13a56ee500ec9df6d9fb"
+          }
+        },
+        {
+          "client_id": "998714741074-jl6qf3bes7cnac3on4rpolqnedouptpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCwHnxRZR-oR3ojNOIyorWRF4An6TF3VDw"
@@ -20,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998714741074-jl6qf3bes7cnac3on4rpolqnedouptpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
